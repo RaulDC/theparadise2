@@ -1,0 +1,50 @@
+Color principal 
+BANNER --> RODRIGUEZ DE MENDOZA >>>>>>>>>>>>CHECK
+BARRA DE MENU - inicio - Información - calendario turistico - Galeria - nosotros - contactanos>>>>>>>>>>>>>>>CHECK
+
+### INICIO DE INDEX #### >>>>>>>>>>>>>>>>>>>CHECK
+INTRO --> (directo) texto(informe)
+HISTORIA --> 	- Epoca preincaica (Imagen - texto) >>>>>>>>> CHECK
+		- Epoca ripublicana (texto - imagen)
+
+### INICIO DE Información #### >>>>>>>>>>CHECK
+TITULO PRINCIPAL---> INFORMACIÓN DEL LUGAR
+TITULO 1 --> GASTRONOMIA
+		- colocar solo 6 platos típicas 3 columnas 2 filas
+		- imgen y su nombre
+
+TITULO 2 --> Danzas Típicas>>>>>>>>>CHECK
+		- colocar solo 3 danzas típicas 3 columnas 1 filas
+		- imgen y su nombre
+
+(imagen intermedia que mueva) >>>>><<<<CHECK
+
+TITULO 3 --> MITOS Y LEYENDAS>>>>>>>>>CHECK
+		- DIVIDIDO EN 3
+		- mito 1
+			- DESCRIPCIÓN Y IMAGENES referencial
+		- mito 2
+			- DESCRIPCIÓN Y IMAGENES referencial
+		- mito 3
+			- DESCRIPCIÓN Y IMAGENES referencial
+TITULO 4--> LUGARES A VISITAR>>>>>>>>>><CHECK
+SUBTITULOS------> DIVIDIDO EN 3
+		- BAÑOS TERMALES DE TOCUYA
+			- PAG CON VIDEO, DESCRIPCIÓN Y IMAGENES
+		- BAÑOS 2
+			- PAG CON VIDEO, DESCRIPCIÓN Y IMAGENES
+		- cavernas de Omia
+			- DESCRIPCIÓN(internet) Y IMAGENES 
+
+
+#### INICIO DE CALENDARIO ####>>>>>>>>>>CHECK
+IMAGEN
+
+#### INICIO DE GALERIA####>>>>>>>>>>>>>CHECK
+IMAGEN QUE SOBRARON
+
+#### INICIO DE NOSOTROS####>>>>>>>>>>NOSOTROS
+LOGO CUADRADO - TEXTO
+
+#### INICIO DE CONTACTANOS####>>>>>>>>>CHECK
+FORMULARIO SIMPLE

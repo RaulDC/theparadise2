@@ -1,0 +1,486 @@
+:root {
+    /* --color-general: #F4D03F; */
+    --color-general: #FFA000;
+    --color-claro: #FFEB3B;
+    --color-oscuro: #FBC02D;
+    --color-iconos: #E67E22;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* BANNER */
+.hero {
+    background-image: url(../img/banner.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+}
+
+.contenido-header {
+    padding-top: 4rem;
+}
+
+.redes-sociales {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+
+.redes-sociales a:last-child {
+    margin-right: 0;
+}
+
+.face:hover {
+    color: rgb(0, 0, 246);
+}
+
+.twit:hover {
+    color: rgb(18, 179, 243);
+}
+
+.pin:hover {
+    color: rgb(227, 45, 45);
+}
+
+.yt:hover {
+    color: rgb(255, 6, 6);
+}
+
+.insta:hover {
+    color: #9b36b7;
+}
+
+.informacion-evento {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.informacion-evento p {
+    margin: 0;
+    display: inline;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.slogan {
+    text-transform: none !important;
+}
+
+.slogan span {
+    font-weight: bold;
+    color: #F4D03F;
+}
+
+.nombre-sitio {
+    font-family: 'Concert One', cursive;
+    font-size: 5.9vw;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 768px) {
+    .nombre-sitio {
+        font-size: 11.9vw;
+        margin: 0;
+        line-height: 1;
+    }
+}
+
+/* Barra de Menu */
+
+.barra {
+    background-color: var(--color-general);
+    padding: 20px 0;
+}
+
+.logo {
+    width: 15%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    margin-left: 2em;
+}
+
+.navegacion-principal {
+    display: none;
+}
+
+.navegacion-principal a {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s ease;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--color-oscuro);
+    color: #ffffff;
+}
+
+.navegacion-principal a:last-child {
+    border: 3px solid var(--color-oscuro);
+    color: #ffffff;
+}
+
+.navegacion-principal a:last-child:hover {
+    color: #ffffff;
+}
+
+.navegacion-principal {
+    width: 85%;
+    float: right;
+    text-align: right;
+    display: block;
+}
+
+.navegacion-principal a {
+    margin-right: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    width: auto;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+/* INFORMACIÓN */
+.container {
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container-contacto {
+    position: relative;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left !important;
+}
+
+.seccion {
+    padding: 30px 0;
+}
+
+.seccion p {
+    line-height: 2;
+    text-align: center;
+    margin: 0 12em;
+}
+
+.corregir p {
+    margin-left: 10em !important;
+    margin-right: 0 !important;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2:after {
+    content: '';
+    margin: 0 auto;
+    background-image: url(../img/separador.png);
+    height: 30px;
+    width: 100px;
+    display: block;
+}
+
+.seccion h3 {
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 10em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text-justify {
+    text-align: justify !important;
+    padding-left: 1em;
+}
+
+.seccion i {
+    color: var(--color-iconos);
+}
+
+.lista-limites li {
+    list-style: none;
+    text-align: left;
+    margin-left: 13em;
+}
+
+.lista-limites span {
+    font-weight: bold;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: var(--color-general);
+    padding-top: 40px;
+    margin-top: 20px;
+}
+.marca2{
+    margin-bottom: 0 !important;
+}
+.marca2 h4{ 
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-weight: bold;
+}
+.marca{
+    margin-top: 0 !important;
+}
+.marca3{
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 0 !important;
+}
+.site-footer .contenedor>div {
+    color: #ffffff;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    .site-footer .contenedor>div {
+        width: 33.3%;
+        float: left;
+    }
+}
+
+.site-footer h3 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+.site-footer h3 span {
+    color: var(--color-claro);
+}
+
+.site-footer .ultimos-tweets li {
+    margin-bottom: 20px;
+}
+
+.site-footer .redes-sociales {
+    text-align: left;
+}
+
+.copyright {
+    background-color: var(--color-oscuro);
+    color: #ffffff;
+    padding: 10px 0;
+    margin: 25px 0 0 0;
+    text-align: center;
+}
+
+/* INFOREMACIÓN */
+.gastronomia p {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gastronomia i {
+    color: var(--color-iconos);
+}
+
+.danzas p {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.danzas i {
+    color: var(--color-iconos);
+}
+
+.lista-invitados li {
+    padding: 10px;
+    float: left;
+    list-style: none;
+}
+
+@media only screen and (min-width: 480px) {
+    .lista-invitados li {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .lista-invitados li {
+        width: 33.3%;
+    }
+}
+
+.invitado {
+    position: relative;
+    overflow: hidden;
+}
+
+.invitado img {
+    max-width: 100%;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.invitado img:hover {
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.1);
+}
+
+.invitado p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 15px 10px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    color: var(--color-general);
+    text-transform: uppercase;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.invitado:hover p {
+    bottom: -80px;
+    opacity: 0;
+}
+
+/*PARALLAX*/
+.parallax::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+}
+.contador {
+    position: relative;
+    height: auto;
+}
+
+.contador::before {
+    background-image: url(../img/img-intermedia.jpg);
+    content: '';
+}
+
+.resumen-evento {
+    position: relative;
+    padding: 120px 0px;
+}
+
+.resumen-evento li {
+    width: 50%;
+    float: left;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .resumen-evento li {
+        width: 25%;
+    }
+}
+
+.numero {
+    color: #fe4918;
+    font-size: 4rem;
+    display: block;
+    margin: 0 0 10px 0;
+}
+
+.video {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* SUBIR A MENU */
+.flecha-up i{
+    color: var(--color-iconos);
+    font-size: 3rem;
+    float: right;
+    margin-right: 3rem;
+}
+.flecha-up i:hover{
+    text-decoration: none;
+    color: var(--color-general);
+    background-color: #fff;
+}
+
+/*CONTACTO*/
+.container-contacto label{
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family:  'Oswald', sans-serif;
+}
+
+.container-contacto i{
+    color: var(--color-iconos);
+}
+.btn-contact{
+    color: #ffff !important;
+    font-weight: bold !important;
+    font-size: 1.2rem !important;
+}
+.btn-contact:hover{
+    background-color: #ffff !important;
+    color: #ffc107 !important;
+}
+
+.historia-title h5{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+.historia-title i{
+    color: var(--color-oscuro);
+}

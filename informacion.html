@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Paradise</title>
+
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body>
+    <!-- BARRA DE MENU -->
+    <div id="barra" class="barra">
+        <div class="contenedor clearfix">
+
+            <div class="logo">
+                <a href="index.html"><img src="img/logo_menu.png" alt="imagen logo"></a>
+            </div>
+
+            <na class="navegacion-principal clearfix">
+                <a href="informacion.html">Información</a>
+                <a href="calendario.html">Cronograma</a>
+                <a href="galeria.html">Galería</a>
+                <a href="nosotros.html">Marca</a>
+                <a href="contactanos.html">Contáctanos</a>
+            </na>
+
+        </div>
+    </div>
+
+    <main>
+        <br><br>
+        <div class="seccion container">
+            <h2 class="subtitle">INFORMACIÓN DEL LUGAR</h2>
+            <p class="text-justify">La provincia de Rodríguez de Mendoza es una de las siete que conforman el
+                departamento de Amazonas en el Perú. Limita por el norte, por el este y por el sur con el departamento
+                de San Martín y por el oeste con la provincia de Chachapoyas.
+
+                Su nombre es un homenaje a Toribio Rodríguez de Mendoza, sacerdote y educador hispano-peruano nacido en
+                Chachapoyas y considerado precursor ideológico de la Independencia del Perú.
+
+                Desde el punto de vista jerárquico de la Iglesia católica forma parte del diócesis de Chachapoyas.</p>
+        </div>
+        <<br>
+            <section class="invitados container seccion">
+                <h2>GASTRONOMIA</h2>
+                <ul class="lista-invitados clearfix">
+                    <li>
+                        <div class="invitado">
+                            <img src="img/Juane Portada.jpg" alt="imagen invitado">
+                            <p><i class="fa-solid fa-utensils"></i> Juane de arroz con yuca</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/humitas.jpg" alt="" class="img-fluid" width="94%">
+                            <p><i class="fa-solid fa-utensils"></i> Humitas de choclo</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/cuy.jpeg" alt="" class="img-fluid" width="91%">
+                            <p><i class="fa-solid fa-utensils"></i> Cuy con maní</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/tacacho.jpg" alt="" class="img-fluid" width="84%">
+                            <p><i class="fa-solid fa-utensils"></i> Tacacho con cecina</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/aguardiente.jpg" alt="" class="img-fluid">
+                            <p> <i class="fa-solid fa-martini-glass-citrus"></i> Aguardiente</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/piña.jpg" alt="" class="img-fluid" width="98%">
+                            <p><i class="fa-solid fa-martini-glass-citrus"></i> El piñachau</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <br>
+
+            <section class="invitados container seccion">
+                <h2>DANZAS TÍPICAS</h2>
+                <ul class="lista-invitados clearfix">
+                    <li>
+                        <div class="invitado">
+                            <img src="img/danza_carachupa.jpg" alt="" class="img-fluid">
+                            <p><i class="fa-solid fa-music"></i> La Carachupa</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/danza_trapiche.jpg" alt="" class="img-fluid" width="149%">
+                            <p><i class="fa-solid fa-music"></i> El Trapiche</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <img src="img/danza_cisne.jpg" alt="" class="img-fluid">
+                            <p><i class="fa-solid fa-music"></i> El Cisne</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <!-- PRUEBA -->
+            <br><br>
+            <div class="contador parallax">
+                <div class="contenedor">
+                    <ul class="resumen-evento clearfix">
+                        <li>
+                            <p class="numero"></p>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <section class="invitados container seccion">
+                <h2>MITOS Y LEYENDAS</h2>
+                <ul class="lista-invitados clearfix">
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Mito1"><img src="img/nicolas.jpg" alt=""
+                                    class="img-fluid"></a>
+                            <p><i class="fa-solid fa-scroll"></i> Patrón San Nicolás</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Mito2"><img src="img/cavernas-leo.jpg"
+                                    alt="" class="img-fluid" width="90.5%"></a>
+                            <p><i class="fa-solid fa-scroll"></i> Caverna De Leo</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Mito3"><img src="img/cerro.jpg" alt=""
+                                    class="img-fluid" width="95.5%"></a>
+                            <p><i class="fa-solid fa-scroll"></i> Cerro La Vaca</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <br>
+            <section class="invitados container seccion">
+                <h2>LUGARES A VISITAR</h2>
+                <ul class="lista-invitados clearfix">
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Lugar1"><img src="img/baños_tocuya.jpg"
+                                    alt="" class="img-fluid"></a>
+                            <p><i class="fa-solid fa-map-location-dot"></i> TOCUYA</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Lugar2"><img
+                                    src="img/iglesia-rodriguez.jpg" alt="" class="" width=""></a>
+                            <p><i class="fa-solid fa-map-location-dot"></i> IGLESIA</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="invitado">
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#Lugar3"><img src="img/cavernas-omia.jpg"
+                                    alt="" class="img-fluid" width=""></a>
+                            <p><i class="fa-solid fa-map-location-dot"></i> OMIA</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+    </main>
+    <a href="#barra" class="flecha-up clearfix"><i class="fas fa-arrow-circle-up"></i></a>
+    <footer class="site-footer">
+        <div class="contenedor clearfix">
+            <div class="footer-informacion">
+                <h3>Sobre<span> THE PARADISE</span></h3>
+                <p>Massa sapien, a varius mauris vehicula nec.Fusce auctor ex eget risus tristique fermentum. Fusce
+                    molestie tellus sit amet magna efficitur, id aliquet urna elementum. Sed lobortis varius nibh et
+                    sodales.</p>
+            </div>
+            <div class="ultimos-tweets">
+                <h3>Ultimos<span> Tweets</span></h3>
+                <ul>
+                    <li>Massa sapien, a varius mauris vehicula nec.Fusce auctor ex eget risus tristique fermentum. Fusce
+                        molestie tellus</li>
+                    <li>Massa sapien, a varius mauris vehicula nec.Fusce auctor ex eget risus tristique fermentum. Fusce
+                        molestie tellus</li>
+                    <li>Massa sapien, a varius mauris vehicula nec.Fusce auctor ex eget risus tristique fermentum. Fusce
+                        molestie tellus</li>
+                </ul>
+
+            </div>
+            <div class="menu">
+                <h3>Redes<span> Sociales</span></h3>
+                <nav class="redes-sociales">
+                    <a href="#" class="face"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="twit"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="pin"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" class="yt"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="insta"><i class="fab fa-instagram"></i></a>
+                </nav>
+            </div>
+        </div>
+
+        <p class="copyright">
+            Todos los derechos Reserbados THE PARADISE 2022.
+        </p>
+    </footer>
+
+    <!-- MITO 1 -->
+    <div class="modal fade" id="Mito1" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Mito1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Mito1"><i
+                            class="fa-solid fa-scroll"></i>
+                        Leyenda del Patrón San Nicolás</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4  text-center">
+                                <img src="img/nicolas.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> Cuenta la leyenda, que un campesino
+                                        fue a
+                                        buscar su ganado que se había perdido en los pastos naturales de las pampas de
+                                        Huamampata, después de varias horas de búsqueda infructuosa se sentó a
+                                        descansar, al
+                                        mismo tiempo a comer su fiambre; reanudando su búsqueda por el interior de la
+                                        montaña, en eso escuchó voces que le llamaban del interior, presuroso acudió al
+                                        lugar de donde provenía el llamado, llegando a una cueva y en lo alto vio una
+                                        imagen, subió con dificultad, tomo la imagen entre sus brazos y cargó en sus
+                                        espaldas emprendiendo el regreso sin importarle su ganado.
+                                        A pesar de que era tarde y el regreso era más de tres horas llegó a su casa
+                                        antes
+                                        que se oculte el sol, contando a su familia lo ocurrido. Al día siguiente se
+                                        levantó
+                                        temprano, cuando se disponía a regresar a Huamanpata a reanudar la búsqueda de
+                                        su
+                                        ganado; grande fue la sorpresa al encontrar todo su ganado en su corral
+                                        incluyendo
+                                        el que estaba perdido, pues durante la noche había venido desde Huamanpata.
+                                        Pronto se hizo noticia entre los familiares y vecinos este hallazgo como un
+                                        milagro,
+                                        por lo que, improvisaron una pequeña capilla colocando la imagen a la cual
+                                        veneraban, después de un tiempo un Sacerdote Jesuita que llegó al lugar, al ver
+                                        la
+                                        vestimenta de la imagen y algunos objetos que llevaba lo reconoció como San
+                                        Nicolás
+                                        de Tolentino Italia.
+                                        Posteriormente construyeron una iglesia cerca al lugar donde encontraron la
+                                        imagen,
+                                        existiendo restos de cimiento y pared de piedras en el lugar que hoy se denomina
+                                        “Iglesia Monte”, donde coloco la imagen; pero siempre aparecía ante los ojos de
+                                        las
+                                        personas que madrugaban a sus faenas agrícolas sobre una piedra grande que
+                                        existía
+                                        en una esquina de la actual Plaza de Armas de Rodríguez de Mendoza, por lo que
+                                        se
+                                        construyó la primera iglesia en lo que hoy es actualmente, luego de muchas
+                                        remodelaciones.
+                                        En estas circunstancias los antiguos pobladores, lo designaron como Patrón, del
+                                        mismo modo ponen también su nombre al pueblo. Cuyas fiestas patronales se
+                                        celebra el
+                                        10 de septiembre de todos los años con la participación de los mendocinos
+                                        residentes
+                                        dentro y fuera del país.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MITO 2 -->
+    <div class="modal fade" id="Mito2" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Mito2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Mito2"><i
+                            class="fa-solid fa-scroll"></i>
+                        Leyenda De La Caverna De Leo</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4  text-center">
+                                <img src="img/cavernas-leo.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> En el año 2007 en una chacra con
+                                        grandes sembríos de café el dueño de la extensión de terrenos Leónidas lampeando
+                                        en su chacra escucho una mujer que gritaba fuertemente como que si estuviera
+                                        pidiendo auxilio el recorrió su chacra y al parecía que los gritos venían de
+                                        debajo de una roca entonces él con la ayuda de su hijo removió la piedra y
+                                        encontró una abertura en la tierra como el paso hacia dentro de la tierra
+                                        llenado de valor ingreso por la cueva y quedo sorprendido al encontrar una
+                                        formación de grandes estalactitas y estalactitas. Desde ese entonces lo q ase es
+                                        conservar y promocionar como un atractivo turístico, lo sorprendente es que
+                                        desde aquella vez nunca más volvió a escuchar a los gritos de la mujer.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MITO 3 -->
+    <div class="modal fade" id="Mito3" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Mito3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-lg modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Mito3"><i
+                            class="fa-solid fa-scroll"></i>
+                        Leyenda Del Cerro La Vaca</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4  text-center">
+                                <img src="img/cerro.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> En el año 2007 en una chacra con
+                                        grandes sembríos de café el dueño de la extensión de terrenos Leónidas lampeando
+                                        en su chacra escucho una mujer que gritaba fuertemente como que si estuviera
+                                        pidiendo auxilio el recorrió su chacra y al parecía que los gritos venían de
+                                        debajo de una roca entonces él con la ayuda de su hijo removió la piedra y
+                                        encontró una abertura en la tierra como el paso hacia dentro de la tierra
+                                        llenado de valor ingreso por la cueva y quedo sorprendido al encontrar una
+                                        formación de grandes estalactitas y estalactitas. Desde ese entonces lo q ase es
+                                        conservar y promocionar como un atractivo turístico, lo sorprendente es que
+                                        desde aquella vez nunca más volvió a escuchar a los gritos de la mujer.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LUGAR 1 -->
+    <div class="modal fade" id="Lugar1" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Lugar1"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Lugar1"><i
+                            class="fa-solid fa-map-location-dot"></i>
+                        Baños Termales de Tocuya</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> Los baños termales de Tocuya es un
+                                        maravilloso atractivo turístico de la región de Amazonas. Conocido también con
+                                        el nombre de Colpa, esto debido a que; es también un bebedero de agua para las
+                                        aves y otras especies propias del lugar.
+                                        <br>
+                                        Este maravilloso lugar ha sido adaptado por los pobladores de la zona,
+                                        convirtiéndola en un atractivo turístico, donde muchos visitantes llegan a
+                                        disfrutar del lugar. Fue construida de manera artesanal, con pircas de piedra,
+                                        estas pozas están ubicadas entre el río Gebil y una afloración rocosa, la base
+                                        de estas rocas esta construida en forma de caverna donde se concentra el agua y
+                                        posteriormente caer por una tubería hacia las pozas.
+                                </p>
+                                <br>
+                                <h5><i class="fa-solid fa-images"></i> Imágenes</h5>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6  text-center">
+                                        <img src="img/baños_tocuya.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6  text-center">
+                                        <img src="img/baños_tocuya2.jpg" alt="" class="video">
+                                    </div>
+                                </div>
+                                <br>
+                                <h5><i class="fa-brands fa-youtube"></i> Video</h5>
+                                <iframe width="1090" height="493" src="https://www.youtube.com/embed/y_j7qEQCLgk"
+                                    title="Baños Tocuya" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LUGAR 2 -->
+    <div class="modal fade" id="Lugar2" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Lugar2"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Lugar2"><i
+                            class="fa-solid fa-map-location-dot"></i>
+                        Iglesia Católica</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-4  text-center" style="margin-top: 8em;">
+                                <img src="img/iglesia-rodriguez.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-8">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> En el templo matriz de la iglesia
+                                        católica de arquitectura moderna y reconstruida totalmente de material noble,
+                                        destacándose su techo de teja a dos aguas, con vídriales que cubren su fachada
+                                        que da a la plaza de armas, en el interior se encuentran los patrones de la
+                                        ciudad, como son: San Nicolás de Tolentino y la Virgen de Natividad. Su diseño
+                                        es de estilo gótico con referencia a su torre.
+                                </p>
+                                <h5><i class="fa-brands fa-youtube"></i> Video</h5>
+                                <iframe width="710" height="400" src="https://www.youtube.com/embed/udNC_evICXA"
+                                    title="Iglesia Católica" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LUGAR 3 -->
+    <div class="modal fade" id="Lugar3" data-bs-backdrop="static" tabindex="-1" aria-labelledby="Lugar3"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
+            <div class="modal-content modal-detalles">
+                <div class="modal-header">
+                    <h3 class="modal-title col-11 text-center modal-titulo" id="Lugar3"><i
+                            class="fa-solid fa-map-location-dot"></i>
+                        Cavernas de Leo (o de Omia)</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <p class="text-justify">
+                                    <span><i class="fa-solid fa-caret-right"></i> Se trata de una gran cueva fósil, con
+                                        muchas concreciones. El dueño del terreno realizó pequeñas obras (escaleras,
+                                        caminos) para el turismo, pero la visita esta un poquito deportiva y da una
+                                        impresión de aventura. La entrada de la cueva turística esta muy estrecha y ha
+                                        sido ampliada por el dueño, el Señor Leo ; pero esta entrada estaba bien
+                                        conocida de los lugareños (presencia de restos arqueológicos). Después de la
+                                        zona estrecha, una rampa de piedras, muy inclinada, permite de bajar y llegar en
+                                        frente de un gran pozo acondicionado de 15 m de profundidad. El dueño ha
+                                        construido una escalera de madera bastante monumental y también peligrosa. Esta
+                                        escalera no ha sido utilizada porque otro itinerario mas cómodo fue encontrado
+                                        mas tarde (Laberinto del Sepulcro). Una nueva rampa de arcilla da acceso en una
+                                        gran sala muy alta, llena de bloques y grandes columnas y estalagmitas caídas.
+                                        Al fundo, hay hundimientos y una pequeña galería sin continuación. En la parte
+                                        baja de la cueva, existe la Galería de la Discordia, no abierta a los
+                                        visitantes. Esta galería se va hacia otra entrada prohibida, porque se trata de
+                                        una propiedad privada y los diferentes dueños no están de acuerdo.
+                                </p>
+                                <br>
+                                <h5><i class="fa-solid fa-images"></i> Imágenes</h5>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-6  text-center">
+                                        <img src="img/caverna_omia2.jpg" alt="" class="img-fluid">
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6  text-center">
+                                        <img src="img/caverna_omia3.jpg" alt="" class="img-fluid" width="93%">
+                                    </div>
+                                </div> <br>
+                                <h5><i class="fa-brands fa-youtube"></i> Video</h5>
+                                <iframe width="1090" height="493" src="https://www.youtube.com/embed/nEDD2cueTwA"
+                                    title="En las cavernas de LEO" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
